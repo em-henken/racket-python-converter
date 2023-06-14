@@ -1,7 +1,7 @@
 # Racket to Python converter
 
 ## Parsing Racket
-My parser recognizes a subset of the racket built-ins. No need to explain because we all know racket now! :) the subset I handled is listed here:
+My parser recognizes a subset of the racket built-ins. Documentation on racket can be found at the end of the README. :) the subset I handled is listed here:
 - math expressions (+, -, *, /)
 - boolean expressions (<, >, <=, >=, null?, eq?)
 - list
@@ -26,3 +26,8 @@ if you want to run python code, you may need the library.py file, which provides
 2. you will be promted to enter a racket program. Copy and paste one of the sample programs.
 3. python code will print out in the command line
 4. take python code and run elsewhere 
+
+
+## Racket documentation
+Racket is a functional programming language. Translating it to a object oriented language meant understanding the difference how each type of language handled functions and built-ins. Here is the official Racket documentation if you are unfamiliar: https://docs.racket-lang.org/
+
