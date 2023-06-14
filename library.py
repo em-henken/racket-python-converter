@@ -15,7 +15,3 @@ def cons(x, l):
         return new
     else:
         return [x, l]
-    
-print(cons(1, 2))
-x = cons(1, 2)
-print(cdr(x))
