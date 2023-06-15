@@ -1,4 +1,4 @@
-math = '(- 30 (* (/ 10 2) 2) '
+math = '(- 30 (* (/ 10 2) 2))'
 
 # 'cond'. note that it always returns something, because in racket each condition has a condition and a block to return if true.
 cond1 = '(define (f x y) (cond ((< x y) x) ((eq? x y) 0 )((< y x) y)))'
